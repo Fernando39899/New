@@ -10796,3 +10796,14 @@ header.masthead .post-heading .meta a {
     font-size: 2.25rem;
   }
 }
+header {
+  background-color: #007bff; /* Cambia el color */
+}
+.card-title {
+  color: #007bff; /* Colorea los títulos de las noticias */
+}
+document.querySelectorAll('.btn-primary').forEach(btn => {
+  btn.addEventListener('click', () => {
+    alert('Esta funcionalidad estará disponible pronto.');
+  });
+});
